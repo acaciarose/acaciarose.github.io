@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.main {
+  width: 90%;
+  padding: 0px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.main-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.bullet-points {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  list-style-type:circle;
+  text-align:left;
+}
+
+.main-grey-text {
+  color: #868e96;
+  font-size: 16px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .main-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 30px;
+      text-align: left;
+    }
+    .achievement-subtitle {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }

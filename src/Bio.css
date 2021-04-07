@@ -1,0 +1,48 @@
+
+  .bio-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+  }
+
+  .bio-title {
+    font-size: 50px;
+    line-height: 1.1;
+    text-align: left;
+    color: rgb(110, 20, 122) !important;
+  }
+  
+  .bio-text-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #b9159e !important;
+  }
+
+  .bio-text-contact {
+    font-size: 20px;
+    line-height: 10px;
+    text-align: left;
+    color: #3b0933 !important;
+  }
+
+  .bio-image-div > img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .bio-main {
+    display: flex;
+  }
+  
+  .bio-main > * {
+    flex: 1;
+  }
+
+
+  
+
+
+  
+  
